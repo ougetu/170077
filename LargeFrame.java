@@ -9,7 +9,7 @@ public class LargeFrame extends JFrame{
 	}
 	
 	public static void main(String[] args){
-		LargeFrame frame = new LargeFrame("ALOHA";
+		LargeFrame frame = new LargeFrame("ALOHA");
 				frame.setVisible(true);
 	}
 }

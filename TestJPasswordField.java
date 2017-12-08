@@ -10,7 +10,7 @@ public class TestJPasswordField extends JFrame{
 
 		JPanel panel = new JPanel();
 		JTextField jtf = new JTextField("",20);
-		JPasswordField field = new JPasswordField("ALOHA");
+		JPasswordField field = new JPasswordField("password");
 
 		panel.add(jtf,BorderLayout.NORTH);
 		panel.add(field,BorderLayout.NORTH);

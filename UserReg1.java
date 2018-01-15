@@ -18,7 +18,7 @@ public class UserReg1 extends JFrame{
     panel.setLayout(new GridLayout(2,2));
     //excelみたいに2列2行を設置する
 
-    JPasswordField jpf = new JPasswordField();
+    JPasswordField jpf = new JPasswordField("password");
     JLabel lbl = new JLabel("mail");
     JLabel lbl2 = new JLabel("Password");
     JTextField jtf = new JTextField("",20);

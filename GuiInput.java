@@ -12,7 +12,7 @@ public class GuiInput extends JFrame implements ActionListener {
   
   GuiInput(String title){
     setTitle(title);
- 	  setBounds(1000,1000,500,500);
+ 	  setBounds(100,100,500,500);
   	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 	
    
   

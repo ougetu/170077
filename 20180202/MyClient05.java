@@ -10,7 +10,7 @@ public class MyClient05{
 	public static void main(String[] args){
 		
 		String ipAddr = "192.168.0.14";
-		int portNum = 5000;
+		int portNum = 4000;
 		Socket socket = null;
 		InputStream is = null;
 		OutputStream os = null;

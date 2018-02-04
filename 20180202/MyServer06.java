@@ -21,7 +21,7 @@ public class MyServer06{
 				InputStreamReader isr = new InputStreamReader(is);
 				BufferedReader br = new BufferedReader(isr);
 				String serverData = br.readLine();
-
+				System.out.println(serverData);
 				OutputStream os = clientSock.getOutputStream();
 				pw = new PrintWriter(os);
 				pw.println(serverData);

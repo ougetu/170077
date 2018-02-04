@@ -28,6 +28,13 @@ public class MyClient06{
 				pw.println(outstr);
 				pw.flush();
 
+				InputStream is = socket.getInputStream();
+				InputStreamReader isr = new InputStreamReader(is);
+				BufferedReader br = new BufferedReader(isr);
+				String serverData = br.readLine();
+				System.out.println("送り返してきたデータ："+serverData);
+			}
+
 		}catch(IOException e){
 			System.out.println("クライアントエラー");
 			System.exit(1);
